@@ -1,0 +1,9 @@
+tkinter
+matplotlib
+numpy
+onnxruntime
+pyserial
+sv_ttk
+pillow
+pandas
+pywin32
