@@ -1,0 +1,18 @@
+tshark -r input.pcap -T fields \
+-e frame.encap_type \
+-e frame.len \
+-e frame.number \
+-e frame.time_delta \
+-e frame.time_delta_displayed \
+-e frame.time_epoch \
+-e frame.time_relative \
+-e wlan.duration \
+-e wlan.fc.frag \
+-e wlan.fc.order \
+-e wlan.fc.moredata \
+-e wlan.fc.protected \
+-e wlan.fc.pwrmgt \
+-e wlan.fc.type \
+-e wlan.fc.retry \
+-e wlan.fc.subtype \
+-E header=y -E separator=, -E quote=d -E occurrence=f > output.csv
