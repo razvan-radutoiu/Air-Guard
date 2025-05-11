@@ -1,6 +1,9 @@
 # Air-Guard - ESP32 based Wi-Fi Intrusion Detection System
 Air-Guard is a powerful and user-friendly tool designed to monitor and analyze wireless communication data in real-time. It uses an ESP32 microcontroller to capture WiFi packets and provides a graphical interface for data visualization and analysis.
 
+![alt text](https://github.com/razvan-radutoiu/Air-Guard/blob/main/screenshot.jpg)
+
+
 ## Features
 
 - Real-time WiFi packet capture using ESP32
